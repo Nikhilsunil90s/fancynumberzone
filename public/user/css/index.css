@@ -1,0 +1,190 @@
+body {
+    background-color: #f1f1f1;
+    margin-top: 0;
+  }
+  
+  .title-holder {
+    top: 15%;
+    left: 39%;
+    position: absolute;
+  }
+  .title {
+    font-family: 'Lato', sans-serif;
+    font-size:1.8vw;
+    color: #444444;
+    width: 0;
+    overflow: hidden;
+    white-space: no-wrap;
+    display:block;
+    animation: typewriter 5s steps(5) infinite, infinite;
+    animation-fill-mode: forwards
+  }
+  
+
+  .back-green {
+    background: linear-gradient(45deg, #75a815, #a6ff00)
+  }
+
+  .text-green {
+    color: #75a815; 
+  }
+
+  .back-blue {
+    background: linear-gradient(45deg, #1548a8, #5a95ec)
+  }
+
+  
+
+  @keyframes typewriter {
+    0% { width:0 }
+    25% { width: 50% }
+    40% { width: 100% }
+    50% { width: 100% }
+    55% { width: 100% }
+    75% { width: 50%; }
+    85% { width: 50%; }
+    100% { width: 0; }
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 50px !important;
+    font-weight: bold !important;
+    background: linear-gradient(52deg, rgba(33,147,176,1) 8%, rgba(109,213,237,1) 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .card-title{
+    font-weight: bold !important;
+  }
+
+  .image {
+      display: block;
+      margin: auto;
+  }
+  .red_color_svg.path {
+    fill: red;
+ }
+  .box {
+      margin-top: 10%;
+  }
+
+  
+  
+  .hm-gradient {
+      background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+  }
+  .navbar .dropdown-menu a:hover {
+      color: #616161 !important;
+  }
+  .darken-grey-text {
+      color: #2E2E2E;
+  }
+  
+
+.page-footer,
+ .navCol{
+    background-color: #007bff;
+}
+
+.back {
+  
+  position: relative;
+  height:250px;
+  width: 80px ;
+  box-sizing: border-box;
+  background: linear-gradient(315deg, transparent 30px, 30px,#f1f1f1 );
+  border-radius: 25px;
+  border: 15px solid transparent;
+  background-clip: padding-box;
+  overflow: hidden;
+  background-image: url("../img/Group15.png");
+}
+
+.back:hover {
+  position: relative;
+  height:250px;
+  width: 80px;
+  box-sizing: border-box;
+  background: linear-gradient(315deg, transparent 30px, 30px, #00244b );
+  border-radius: 25px;
+  border: 15px solid transparent;
+  background-clip: padding-box;
+  overflow: hidden;
+  transform: scale(1.02);
+  transition: 0.5s linear;
+  background-image: url("../img/Group16.png");
+ 
+}
+
+.back:hover p{
+
+   background: #ffffff;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+
+
+.back:before {
+  height: 88px;
+  width: 88px;
+  background: transparent;
+  position: absolute;
+  content: '';
+  transform: rotate(45deg);
+  top: -47px;
+  left: -61px;
+ 
+}
+
+.btnMag{
+  border-radius: 25px !important;
+  padding: 12px 20px 12px 20px !important;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.5s linear;
+  border:  3px solid #007bff !important;
+}
+
+
+@media screen and (max-width: 991px) {
+  .title {
+    font-size:3.5vw;
+  }
+
+  .second-div {
+    display: none;
+  }
+}
+@media screen and (max-width: 429px) {
+  .title {
+   
+    font-size:3vw;
+    margin-left: 7%;
+  }
+}
+@media screen and (max-width: 372px) {
+  #right{
+    border-radius: 25px !important;
+    padding: 6% !important;
+  }
+}
+@media screen and (max-width: 414px) {
+  #wid {
+    margin-right: -43%;
+  }
+}
+@media screen and (max-width: 375px) {
+  #wid {
+    margin-right: -55%;
+  }
+}
+@media screen and (max-width: 360px) {
+  #wid {
+    margin-right: -59%;
+  }
+}
