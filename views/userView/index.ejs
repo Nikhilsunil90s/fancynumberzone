@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Number Index</title>
-  <link rel="stylesheet" href="./public/user/css/index.css">
+  <link rel="stylesheet" href="../../public/user/css/index.css">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/css/mdb.min.css'>
@@ -15,9 +15,11 @@
 
 </style>
 
-<body>
+<body> -->
+
+  <%- include('../partials/top') %>
   <nav class="mb-4 navbar navbar-expand-lg navbar-dark fixed-top navCol">
-    <a class="navbar-brand font-bold" href="#">Logo Here</a>
+    <a class="navbar-brand font-bold" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
       aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -28,10 +30,13 @@
           <a class="nav-link" href="/"><i class="fa fa-home"></i> Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/displayNumbers"><i class="fa fa-list"></i> Numbers</a>
+          <a class="nav-link" href="/categories"><i class="fa fa-list"></i> Numbers</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/contactUs"><i class="fa fa-envelope"></i> Contact </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/cart"><i class="fa fa-shopping-cart"></i> Cart </a>
         </li>
 
 
@@ -43,16 +48,16 @@
     <div class="row back-green">
       <div class="col-lg-6 col-md-12">
         <div class="box">
-          <img class="image" style="width: 100%; margin-top: -5%;" class="image" src="./public/user/img/18105917-eps.svg" alt="img">
+          <img class="image" style="width: 100%; margin-top: -5%;" class="image" src="../../public/user/img/18105917-eps.svg" alt="img">
         </div>
       </div>
 
       <div class="col-lg-6 col-md-12 second-div">
         <div class="box">
           <div class="col-lg-12 col-md-12">
-            <img class="image" style="width: 35%;" src="./public/user/img/Group2.svg" alt="img">
+            <img class="image" style="width: 35%;" src="../../public/user/img/Group2.svg" alt="img">
             <span class="title-holder">
-              <span class="title text-white">
+              <span class="title">
                 9873785918
               </span>
             </span>
@@ -192,7 +197,7 @@
           <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
             <div class="card">
               <div class="card-body">
-                <img class="float-right" style="width: 50px;" src="./public/user/img/searching-magnifying-glass.svg">
+                <img class="float-right" style="width: 50px;" src="../../public/user/img/searching-magnifying-glass.svg">
                 <h4 class="card-title text-green">Find Number</h4>
                 <br>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
@@ -204,7 +209,7 @@
           <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
             <div class="card">
               <div class="card-body">
-                <img class="float-right" style="width: 50px;" src="./public/user/img/credit-card.svg">
+                <img class="float-right" style="width: 50px;" src="../../public/user/img/credit-card.svg">
                 <h4 class="card-title text-green">Make Payment</h4>
                 <br>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
@@ -216,7 +221,7 @@
           <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
             <div class="card">
               <div class="card-body">
-                <img class="float-right" style="width: 50px;" src="./public/user/img/binary-code.svg">
+                <img class="float-right" style="width: 50px;" src="../../public/user/img/binary-code.svg">
                 <h4 class="card-title text-green">Get Unique Code</h4>
                 <br>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
@@ -228,7 +233,7 @@
           <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
             <div class="card">
               <div class="card-body">
-                <img class="float-right" style="width: 50px;" src="./public/user/img/smartphone.svg">
+                <img class="float-right" style="width: 50px;" src="../../public/user/img/smartphone.svg">
                 <h4 class="card-title text-green">Get Mobile Number</h4>
                 <br>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
@@ -249,7 +254,7 @@
           <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
             <div class="card">
               <div class="card-body">
-                <img class="float-right" style="width: 50px;" src="./public/user/img/birthday-cake.svg">
+                <img class="float-right" style="width: 50px;" src="../../public/user/img/birthday-cake.svg">
                 <h4 style="font-family: Brush Script MT, Brush Script Std, cursive;">BIRTHDAY </h4>
                 <h4 class="card-title">Number</h4>
                 <br>
@@ -260,7 +265,7 @@
           <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
             <div class="card">
               <div class="card-body">
-                <img class="float-right" style="width: 50px;" src="./public/user/img/magic-ball.svg">
+                <img class="float-right" style="width: 50px;" src="../../public/user/img/magic-ball.svg">
                 <h4 style="font-family: Brush Script MT, Brush Script Std, cursive;">ASTROLOGY </h4>
                 <h4 class="card-title">Number</h4>
                 <br>
@@ -271,7 +276,7 @@
           <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
             <div class="card">
               <div class="card-body">
-                <img class="float-right" style="width: 50px;" src="./public/user/img/astrology.svg">
+                <img class="float-right" style="width: 50px;" src="../../public/user/img/astrology.svg">
                 <h4 style="font-family: Brush Script MT, Brush Script Std, cursive;">LUCKY</h4>
                 <h4 class="card-title">Number </h4>
                 <br>
@@ -282,7 +287,7 @@
           <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
             <div class="card">
               <div class="card-body">
-                <img class="float-right" style="width: 50px;" src="./public/user/img/car.svg">
+                <img class="float-right" style="width: 50px;" src="../../public/user/img/car.svg">
                 <h4 style="font-family: Brush Script MT, Brush Script Std, cursive;">CAR </h4>
                 <h4 class="card-title"> Number</h4>
                 <br>
@@ -430,10 +435,13 @@
     <!-- Footer Links -->
 
   </footer>
-</body>
+
+<%- include('../partials/bottom') %>
+
+<!-- </body>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js'></script>
 <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/js/mdb.min.js'></script>
 
-</html>
+</html> -->
